@@ -39,7 +39,7 @@ public class MainTask {
                 getMonth();
                 break;
             default:
-                System.out.println("Не корректно введен номер задания");
+                throw new IllegalArgumentException("Не корректно введен номер задания");
         }
 
     }
